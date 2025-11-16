@@ -1,16 +1,16 @@
 {
   "name": "rsp-dashboard",
   "private": true,
+   "homepage": "https://Bhanusrimanepalli.github.io/rsp-dashboard",
   "version": "0.0.1",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "tsc && vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@mantine/core": "^7.0.0",
     "@mantine/dates": "^7.0.0",
