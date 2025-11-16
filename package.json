@@ -1,30 +1,31 @@
 {
   "name": "rsp-dashboard",
   "private": true,
-   "homepage": "https://Bhanusrimanepalli.github.io/rsp-dashboard",
+  "homepage": "https://Bhanusrimanepalli.github.io/RSP-DASHBOARD_NEW",
   "version": "0.0.1",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
-    "@mantine/core": "^7.0.0",
+    "@mantine/core": "^7.17.8",
     "@mantine/dates": "^7.0.0",
-    "@mantine/hooks": "^7.0.0",
-    "echarts": "^5.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@mantine/hooks": "^7.17.8",
+    "echarts": "^5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
+    "@types/echarts": "^4.9.22",
+    "@types/react": "^18.3.26",
+    "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.0.0",
     "gh-pages": "^6.3.0",
-    "typescript": "^5.0.0",
+    "typescript": "^5.9.3",
     "vite": "^5.0.0"
   }
 }
