@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { MantineProvider } from "@mantine/core";
 
-// REQUIRED for Select to work
+
 import "@mantine/core/styles.css";
 
 import "./components/Styles/Style.css";

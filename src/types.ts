@@ -3,7 +3,7 @@ export interface FuelRecord {
   Year: string;
   Month: string;
   date: string;
-  fuel: string;   // FIXED (no space)
+  fuel: string;   
   city: string;
   rsp: string | number;
 }

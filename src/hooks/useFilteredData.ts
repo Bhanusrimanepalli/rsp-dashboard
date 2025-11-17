@@ -16,7 +16,7 @@ export function useFilteredData(city: string, fuel: string, year: string) {
   const monthGroups: Record<string, FuelRecord[]> = {};
 
   filtered.forEach(record => {
-    const month = getMonth(record.date); // "May"
+    const month = getMonth(record.date); 
     if (!monthGroups[month]) monthGroups[month] = [];
     monthGroups[month].push(record);
   });

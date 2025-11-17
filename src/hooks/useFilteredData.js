@@ -8,7 +8,7 @@ export function useFilteredData(city, fuel, year) {
         d.date.startsWith(year));
     const monthGroups = {};
     filtered.forEach(record => {
-        const month = getMonth(record.date); // "May"
+        const month = getMonth(record.date);
         if (!monthGroups[month])
             monthGroups[month] = [];
         monthGroups[month].push(record);
