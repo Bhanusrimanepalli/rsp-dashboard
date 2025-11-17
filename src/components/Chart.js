@@ -3,7 +3,6 @@ import { useEffect, useRef } from "react";
 import * as echarts from "echarts";
 export default function Chart({ xData, yData }) {
     const ref = useRef(null);
-    //hello
     useEffect(() => {
         if (!ref.current)
             return;

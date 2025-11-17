@@ -8,7 +8,6 @@ interface Props {
 
 export default function Chart({ xData, yData }: Props) {
   const ref = useRef<HTMLDivElement>(null);
-  //hello
 
   useEffect(() => {
     if (!ref.current) return;
